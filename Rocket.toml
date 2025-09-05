@@ -1,0 +1,6 @@
+[default]
+address = "0.0.0.0"
+
+## set only when compiled in debug mode, i.e, `cargo build`
+[debug]
+port = 8000
