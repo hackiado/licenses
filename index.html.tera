@@ -1,0 +1,9 @@
+{% extends "base" %}
+
+{% block content %}
+
+{% endblock content %}
+
+{% block scripts %}
+console.log("it works!")
+{% endblock scripts %}
