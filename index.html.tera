@@ -5,5 +5,7 @@
 {% endblock content %}
 
 {% block scripts %}
-console.log("it works!")
+<script>
+console.log("it works!");
+</script>
 {% endblock scripts %}
