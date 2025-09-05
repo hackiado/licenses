@@ -8,14 +8,13 @@
   {% block css %}{% endblock css %}
 </head>
 <body>
-  {% include "partials/_navbar.html.tera" %}
 
   <main id="app">
     {% block content %}{% endblock content %}
   </main>
 
   <script type="module" src="/static/global.js"></script>
-  {% block js %}{% endblock js %}
+  {% block scripts %}{% endblock scripts %}
 </body>
 </html>
 
