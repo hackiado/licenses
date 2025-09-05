@@ -7,6 +7,7 @@
 {% block description %}
 
 {% endblock description %}
+
 {% block css %}
 
 {% endblock css %}
@@ -15,7 +16,7 @@
 
 {% endblock content %}
 
-{% block js %}
+{% block scripts %}
 
-{% endblock js %}
+{% endblock scripts %}
 
