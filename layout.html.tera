@@ -4,7 +4,6 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>{% block title %}{{title}}{% endblock title %}</title>
-  <link rel="stylesheet" href="/static/rusty.css">
   {% block css %}{% endblock css %}
 </head>
 <body>
@@ -13,7 +12,6 @@
     {% block content %}{% endblock content %}
   </main>
 
-  <script type="module" src="/static/global.js"></script>
   {% block scripts %}{% endblock scripts %}
 </body>
 </html>
