@@ -7,10 +7,20 @@
   {% block css %}{% endblock css %}
 </head>
 <body>
-
-  <main id="app">
-    {% block content %}{% endblock content %}
-  </main>
+    <header>
+        <nav>
+            <a href="/" class="logo">Rooots</a>
+            <ul class="nav-links">  
+                <li><a href="/about">About</a></li>
+                <li><a href="https://github.com/rustaroots/roots/wiki">Docs</a></li>
+                <li><a href="https://github.com/rustaroots/roots/discussions">Blog</a></li>
+                <li><a href="mailto:seidogitan@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main id="app">
+     {% block content %}{% endblock content %}
+   </main>
 
   {% block scripts %}{% endblock scripts %}
 </body>
