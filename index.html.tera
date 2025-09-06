@@ -1,9 +1,13 @@
 {% extends "layout" %}
 
 {% block content %}
-
+    <main>
+        <h1>Welcome to Rooots</h1>
+        <p>A simple, fast, and secure web framework for Rust.</p>
+        <a href="https://github.com/rustaroots/roots/wiki" class="btn">Get Started</a>
+    </main>
 {% endblock content %}
-
+ 
 {% block scripts %}
 <script>
 console.log("it works!");
