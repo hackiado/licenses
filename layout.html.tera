@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    {% block head_seo %}
+      {% include "partials/_seo.html.tera" %}    
+    {% endblock head_seo %}
+
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>{% block title %}{{title}}{% endblock title %}</title>
