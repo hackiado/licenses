@@ -1,0 +1,36 @@
+:root {
+  // Light theme colors
+  --simbe-bg: #f7f8fa;
+  --simbe-fg: #23272e;
+  --simbe-accent: #4e8cff;
+  --simbe-border: #e0e4ea;
+  --simbe-muted: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --simbe-bg: #181a20;
+    --simbe-fg: #f7f8fa;
+    --simbe-accent: #7ab8ff;
+    --simbe-border: #23272e;
+    --simbe-muted: #a0aec0;
+  }
+}
+
+// Usage example
+body {
+  background: var(--simbe-bg);
+  color: var(--simbe-fg);
+}
+
+a {
+  color: var(--simbe-accent);
+}
+
+hr {
+  border-color: var(--simbe-border);
+}
+
+.muted {
+  color: var(--simbe-muted);
+}
